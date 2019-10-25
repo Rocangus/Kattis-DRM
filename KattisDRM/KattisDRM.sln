@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KattisDRM", "KattisDRM\KattisDRM.csproj", "{4847EE13-2394-493E-BECF-E282E9D43F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KattisDRMTest", "KattisDRMTest\KattisDRMTest.csproj", "{E0609EB7-FB4F-423F-9AC4-838E05CDD40D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4847EE13-2394-493E-BECF-E282E9D43F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4847EE13-2394-493E-BECF-E282E9D43F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4847EE13-2394-493E-BECF-E282E9D43F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4847EE13-2394-493E-BECF-E282E9D43F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0609EB7-FB4F-423F-9AC4-838E05CDD40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0609EB7-FB4F-423F-9AC4-838E05CDD40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0609EB7-FB4F-423F-9AC4-838E05CDD40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0609EB7-FB4F-423F-9AC4-838E05CDD40D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC088459-38ED-41CC-B75F-7E78C1748FD4}
+	EndGlobalSection
+EndGlobal
