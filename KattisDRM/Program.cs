@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace KattisDRM
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine(Convert.ToInt32('A'));
         }
