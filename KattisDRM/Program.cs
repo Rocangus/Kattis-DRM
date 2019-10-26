@@ -7,7 +7,10 @@ namespace KattisDRM
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Convert.ToInt32('A'));
+            DRMEncryptor encryptor = new DRMEncryptor();
+            var input = Console.ReadLine();
+            var output = encryptor.Encrypt(input);
+            Console.WriteLine(output);
         }
     }
 }

@@ -13,18 +13,15 @@ namespace KattisDRM
         {
         }
 
+        // Main encryption method. Makes necessary calls.
         public string Encrypt(string str)
         {
             Divide(str);
-            Rotate(str);
-            Merge();
-            return str;
+            firstHalf = Rotate(firstHalf);
+            lastHalf = Rotate(lastHalf);
+            return Rotate(firstHalf, lastHalf);
         }
 
-        private void Merge()
-        {
-            
-        }
 
         // Divides a string of an even count of uppercase letters only in half.
         public void Divide(string str)
