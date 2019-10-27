@@ -10,14 +10,14 @@ namespace KattisDRMTest
         [Fact]
         public void RotateRotatesCorrectly()
         {
-            var res = encryptor.Rotate("EWPG");
-            Assert.Equal("ZRKB", res);
+            var res = encryptor.Rotate("EWPG".ToCharArray());
+            Assert.Equal("ZRKB".ToCharArray(), res);
         }
 
         [Fact]
         public void RotateCanMergeStrings()
         {
-            var res = encryptor.Rotate("ZRKB", "BKSC");
+            var res = encryptor.Rotate("ZRKB".ToCharArray(), "BKSC".ToCharArray());
             Assert.Equal("ABCD", res);
         }
 
